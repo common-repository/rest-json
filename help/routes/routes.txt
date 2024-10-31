@@ -1,0 +1,62 @@
+Get all Menus List Api :
+
+	 Endpoint : base_url/wp-json/menus/
+	 Name : Menu
+	 Method : GET
+	 Request Parameters : null
+	 Parameter Type : null
+	 Response : JSON
+
+Get menu by id :
+
+	 Endpoint : base_url/wp-json/menus/<id>
+	 Name : Menu
+	 Method : GET
+	 Request Parameters : (int)id*
+	 Parameter Type : id=2
+	 Response : JSON	
+
+Get all Post list Api :
+
+	 Endpoint : base_url/wp-json/posts/
+	 Name : Post
+	 Method : GET
+	 Request Parameters : null
+	 Parameter Type : null
+	 Response : JSON
+
+Get post by id :
+
+	 Endpoint : base_url/wp-json/posts/<id>
+	 Name : Post
+	 Method : GET
+	 Request Parameters : (int)id*
+	 Parameter Type : id=1
+	 Response : JSON	
+
+Get list of all Pages Api : 	
+	
+	Endpoint : base_url/wp-json/pages/
+	Name : Page
+	Method : GET
+	Request Parameters : null
+	Parameter Type : null
+	Response : JSON	
+
+Get page by id :
+
+	Endpoint : base_url/wp-json/pages/<id>
+	Name : Page
+	Method : GET
+	Request Parameters : (int)id*
+	Parameter Type : id=10
+	Response : JSON	
+
+Taxonomies api :
+
+	Endpoint : base_url/wp-json/taxonomies/
+	Name : Taxonomies
+	Method : GET
+	Request Parameters : null
+	Parameter Type : null
+	Response : JSON	
